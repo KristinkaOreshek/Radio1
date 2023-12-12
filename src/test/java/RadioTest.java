@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 public class RadioTest {
 
     @Test
-    public void test(){
+    public void test() {
         Radio radio = new Radio();
 
         radio.setCurrentStation(6);
@@ -14,6 +14,7 @@ public class RadioTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void test1() {
         Radio radio = new Radio();
@@ -25,6 +26,7 @@ public class RadioTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void test2() {
         Radio radio = new Radio();
@@ -36,6 +38,7 @@ public class RadioTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void test3() {
         Radio radio = new Radio();
@@ -47,6 +50,7 @@ public class RadioTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void test4() {
         Radio radio = new Radio();
@@ -58,6 +62,7 @@ public class RadioTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void test5() {
         Radio radio = new Radio();
@@ -69,6 +74,7 @@ public class RadioTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void test6() {
         Radio radio = new Radio();
@@ -80,6 +86,7 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void test7() {
         Radio radio = new Radio();
@@ -90,6 +97,7 @@ public class RadioTest {
         int actual = radio.getCurrentStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void test8() {
         Radio radio = new Radio();
@@ -100,6 +108,7 @@ public class RadioTest {
         int actual = radio.getCurrentStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void test9() {
         Radio radio = new Radio();
@@ -110,6 +119,7 @@ public class RadioTest {
         int actual = radio.getCurrentStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void test10() {
         Radio radio = new Radio();
